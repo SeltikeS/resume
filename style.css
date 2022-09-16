@@ -28,8 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card {
-  background: #fff;
-  border: 1px solid #bbb;
+  background: #bbffee;
   border-radius: 0.5rem;
   padding: 0.5rem;
   margin-bottom: 1rem;
@@ -40,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .link {
-  color: #ccc;
+  color: #999;
   text-decoration: none;
   font-family: inherit;
   transition: all 0.2s;
@@ -51,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .link:visited {
-  color: #ccc;
+  color: #999;
 }
 
 .social-img {
@@ -71,4 +70,11 @@ h1, h2, h3, h4, h5, h6 {
 .btn:hover {
   cursor: pointer;
   opacity: 0.9;
+}
+
+.contact {
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 0.5rem;
+  width: max-content;
 }
