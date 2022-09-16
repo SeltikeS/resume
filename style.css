@@ -38,3 +38,37 @@ h1, h2, h3, h4, h5, h6 {
 .photo img {
   border-radius: 0.5rem;
 }
+
+.link {
+  color: #ccc;
+  text-decoration: none;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:visited {
+  color: #ccc;
+}
+
+.social-img {
+  width: 1rem;
+}
+
+.btn {
+  background: #222;
+  border: none;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+  transition: all 0.1s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
