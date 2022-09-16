@@ -58,9 +58,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-  background: #222;
+  background: #bbffee;
   border: none;
-  color: #fff;
+  color: #222;
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
   font-family: inherit;
@@ -68,13 +68,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn:hover {
+  background: #bbffee;
   cursor: pointer;
-  opacity: 0.9;
 }
 
 .contact {
   background: #fff;
-  border: 1px solid #bbb;
+  border: 1px solid #bbffee;
   border-radius: 0.5rem;
   width: max-content;
 }
