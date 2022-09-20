@@ -7,7 +7,7 @@
 html,
 body {
   background: #fff;
-  color: #222;
+  color: #2c6c5c;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -16,6 +16,10 @@ body {
 p {
   font-size: 0.875rem;
   margin: 0;
+}
+
+hr {
+  border: 1px solid #2c6c5c;
 }
 
 ol {
@@ -28,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card {
-  background: #bbffee;
+  background: #2c6c5c33;
   border-radius: 0.5rem;
   padding: 0.5rem;
   margin-bottom: 1rem;
@@ -53,13 +57,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card table td {
-  background: rgba(255, 255, 255, 0.5);
+  background: #2c6c5c22;
   padding: 0.25rem 0.5rem;
 }
 
 .card table th {
-  background: rgba(200, 200, 200, 0.5);
+  background: #2c6c5c44;
   padding: 0.25rem 0.5rem;
+}
+
+.info {
+  margin-bottom: 1rem;
+}
+
+.info h1 {
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+}
+
+.main-info {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.photo {
+  display: inline-block;
 }
 
 .photo img {
@@ -97,7 +119,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn:hover {
-  background: #2c6c5c;
   opacity: 0.9;
   cursor: pointer;
 }
@@ -111,4 +132,33 @@ h1, h2, h3, h4, h5, h6 {
 
 .contact label {
   font-size: 0.875rem;
+}
+
+.contact-input {
+  display: inline-block;
+}
+
+.contact-input input {
+  font-family: inherit;
+  border: none;
+  border-bottom: 1px solid #2c6c5c;
+  outline: none;
+}
+
+.contact-input input::placeholder {
+  color: #2c6c5c8a;
+  letter-spacing: 0.1rem;
+}
+
+.contact-textarea textarea {
+  border: none;
+  border-bottom: 1px solid #2c6c5c;
+  font-family: inherit;
+  width: 100%;
+  outline: none;
+}
+
+.contact-textarea textarea::placeholder {
+  color: #2c6c5c8a;
+  letter-spacing: 0.1rem;
 }
