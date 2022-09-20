@@ -162,3 +162,45 @@ h1, h2, h3, h4, h5, h6 {
   color: #2c6c5c8a;
   letter-spacing: 0.1rem;
 }
+
+@media (max-width: 850px) {
+  .photo,
+  .contact-input {
+    display: block;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .card {
+    text-align: center;
+  }
+
+  .card li {
+    display: block;
+  }
+
+  .card ol {
+    padding: 0;
+  }
+
+  .contact {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .info h1 {
+    font-size: 2rem;
+    letter-spacing: 0;
+  }
+
+  .main-info {
+    margin: 0;
+  }
+}
